@@ -1,0 +1,98 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* News-section-Start  */
+    .news {
+        padding: 30px 0px;
+    }
+    .news-main {
+        margin-bottom: 20px;
+    }
+    /* News-Section-End */
+    /* Facility-Section-Start */
+    .facility-list {
+        margin: 10px 0px 10px;
+    }
+    /* Facility-Section-End */
+    /* Teachers-page-start */
+    .single-teacher {
+        margin-bottom: 25px;
+        /* padding: 0px 20px; */
+    }
+    .t-content .t-name {
+        font-size: 16px;
+    }
+    .t-content .t-designation {
+        font-size: 14px;
+    }
+    /* .t-img img {
+        padding: 15px 30px;
+    } */
+    .teacher-row{
+        justify-content: center !important;
+    }
+    /* Teachers-page-end */
+
+ }
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* News-section-Start  */
+    .news {
+        padding: 50px 0px;
+    }
+    .news-main {
+        margin-bottom: 20px;
+    }
+    /* News-Section-End */ 
+    /* Facility-Section-Start */
+    .facility-list {
+        margin: 10px 0px 10px;
+    }
+    /* Facility-Section-End */
+    /* Teachers-page-start */
+     .single-teacher {
+        margin-bottom: 25px;
+    }
+    .t-content .t-name {
+        font-size: 16px;
+    }
+    .t-content .t-designation {
+        font-size: 14px;
+    }
+    /* Teachers-page-end */
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    /* News-Section-Start */
+    .news-header {
+        font-size: 25px;
+    }
+    .news-intro {
+        font-size: 14px;
+    }
+    .facility-item a {
+        padding-left: 0px;
+    }
+    /* News-Section-End */
+    /* Teachers-page-start */
+    /* Teachers-page-start */
+    .t-content .t-name {
+        font-size: 18px;
+    }
+    .t-content .t-designation {
+        font-size: 12px;
+    }
+    /* Teachers-page-end */
+ }
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1299.98px) { 
+
+ }
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }

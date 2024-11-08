@@ -1,0 +1,19 @@
+@media (min-width: 992px) {}
+
+@media (max-width: 1100px) and (min-width: 992px) {
+    /* Custom responsive css start... */
+    .custom-data-table {
+        display: inline-block !important;
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Custom responsive css start... */
+    .custom-data-table {
+        display: inline-block !important;
+        overflow-x: scroll;
+    }
+}
+
+@media (min-width: 576px) {}
