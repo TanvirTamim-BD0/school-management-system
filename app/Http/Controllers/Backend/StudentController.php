@@ -47,7 +47,7 @@ class StudentController extends Controller
         $defaultSessionYear = DefaultSessionYear::getDefaultSessionYear();
 
         //To get all the student data...
-        $students = Student::orderBy('id', 'desc')->where('user_id', $userId)->where('session_year', $defaultSessionYear)->get();
+        $students = Student::orderBy('id', 'desc')->where('user_id', $userId)->get();
 
         return view('backend.student.index' ,compact('students'));
     }

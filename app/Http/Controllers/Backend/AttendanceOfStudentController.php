@@ -38,7 +38,7 @@ class AttendanceOfStudentController extends Controller
 
         //To get all the class & student data with userId...
         $classData = Classname::orderBy('id', 'desc')->where('user_id', $userId)->get();
-        $studentData = Student::orderBy('id', 'desc')->where('session_year', $defaultSessionYear)->where('user_id', $userId)->get();
+        $studentData = Student::orderBy('id', 'desc')->where('user_id', $userId)->get();
 
         return view('backend.attendance.studentAttendace.index', compact('classData','studentData'));
     }
